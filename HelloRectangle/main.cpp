@@ -111,6 +111,8 @@ int main() {
 
         glUseProgram(shaderProgram);
         glBindVertexArray(VAO);
+
+        // glPolygonMode(GL_FRONT_AND_BACK, GL_LINE); // Wireframe.
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 
         glfwSwapBuffers(window);
