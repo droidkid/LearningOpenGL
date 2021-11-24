@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 # Lessons
 add_subdirectory(HelloTriangle)
+add_subdirectory(HelloRectangle)
 
 # GLAD
 add_library(glad "deps/glad/src/glad.c")
@@ -19,3 +20,5 @@ add_subdirectory("./deps/glfw")
 
 target_link_libraries(HelloTriangle PUBLIC glad)
 target_link_libraries(HelloTriangle PUBLIC glfw)
+target_link_libraries(HelloRectangle PUBLIC glad)
+target_link_libraries(HelloRectangle PUBLIC glfw)
