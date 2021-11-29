@@ -3,3 +3,7 @@ To build, create a folder deps and download the GLFW and glad headers into a fol
 Then build using CMAKE.
 
 TODO(chesetti): Add more clear instructions.
+
+Dependencies
+* glfw
+* glm
