@@ -1,3 +1,3 @@
 add_executable(HelloRectangle main.cpp)
 
-include_directories("../deps/glad/include")
+include_directories("../lib/glad/include")

@@ -1,4 +1,4 @@
 add_executable(HelloCube main.cpp)
 
-include_directories("../deps/glad/include")
-include_directories("../deps/glm")
+include_directories("../lib/glad/include")
+include_directories("../lib/glm")

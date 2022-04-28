@@ -9,14 +9,14 @@ add_subdirectory(HelloRectangle)
 add_subdirectory(HelloCube)
 
 # GLAD
-add_library(glad "deps/glad/src/glad.c")
-target_include_directories(glad PUBLIC "deps/glad/include")
+add_library(glad "lib/glad/src/glad.c")
+target_include_directories(glad PUBLIC "lib/glad/include")
 
 #GLFW
 set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
-add_subdirectory("./deps/glfw")
+add_subdirectory("lib/glfw")
 
 
 # TODO(chesetti): automate this.
